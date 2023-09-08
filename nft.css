@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: "Outfit";
+    background-color: hsl(217, 54%, 11%) ;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.card{
+    background-color: hsl(216, 50%, 16%) ;
+border-radius: 10px;
+width: 270px;
+padding: 1.5rem;
+height: 500px;
+margin: auto;
+}
+.image2{
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    background-color:hsl(178, 100%, 50%);
+    top: 0;
+    margin-top: 24px;
+    opacity: 0;
+}
+.image2-overlay{
+    transform: translate(-50%,-50%);
+}
+.image2:hover{
+  opacity: 0.4;
+}
+.mainimg{
+    height: 270px;
+    width: 270px;
+    border-radius: 8px;
+ }
+h2{
+    margin-top: 1.5 rem;
+    font-size: 20px;
+   font-weight: 300; 
+   color: hsl(0, 0%, 100%);
+}
+.description{
+    color:hsla(215, 51%, 70%, 0.5);
+    font-weight: 300;
+    padding-top:20px ;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: start;
+}
+h2 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.price{
+    display: flex;
+color:hsl(178, 100%, 50%) ;
+letter-spacing:1px;
+align-items: center;
+justify-content: start;
+margin-right: 35px;
+}
+.day{
+    display: flex;
+    color:hsla(215, 51%, 70%, 0.5) ;
+    letter-spacing: 1px;
+    justify-content: end;
+    align-items: center;
+    margin-left: 35px;
+}
+.price, .day{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.man{
+    width: 30px;
+    height: 30px;
+    border:1px solid white;
+    border-radius: 100%;
+}
+.creator{
+    display:inline-flex;
+    justify-content: left;
+    text-align:center;
+    padding-top: 20px;
+}
+span{
+    text-align:center ;
+    color:hsl(0, 0%, 100%);
+}
+h2:hover, span:hover{
+    /* replace white with the color code */
+    color:hsl(178, 100%, 50%);
+}
